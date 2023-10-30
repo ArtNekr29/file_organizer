@@ -1,0 +1,20 @@
+﻿<Page x:Class="file_organizer.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:file_organizer"
+      mc:Ignorable="d" 
+      d:DesignHeight="250" d:DesignWidth="400"
+      Title="login">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Login"/>
+            <TextBox Width="200" Name="loginBox"/>
+            <TextBlock Text="Password"/>
+            <TextBox Width="200" Name="PasswordBox"/>
+            <Button Margin="0,5,0,0" Name="login" Content="Sing In" Click="login_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
