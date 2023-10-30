@@ -15,10 +15,6 @@
             <Frame Name="mainframe" NavigationUIVisibility = 'Hidden'/>
             
         </StackPanel>
-        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Horizontal">
-            <Button Height="20" Content="Delete" FontSize="10" Name="del" Click="del_Click"/>
-            <Button Height="20" Content="Update" FontSize="10" Name="upd" Click="upd_Click"/>
-        </StackPanel>
-
+        
     </Grid>
 </Window>
